@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.homeTitle {
+    text-align: center;
+}
+.contentDiv {
+    width: 30%;;
+    word-wrap: break-word;
+    border: 1px solid black;
+    padding: 32px 16px;
+    margin: 0 1.66%;
+    float: left;
+    position: relative;
+}
+.sectionTitle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    line-height: 20px;
+    padding: 2px 16px;
+    font-weight: bolder;
+}
+.pink {
+    background: lightpink;
+}
+.red {
+    background: lightskyblue;
+}
+.yellow {
+    background: orange;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .contentDiv {
+        width: 45%;
+        margin: 2.5%;
+    }
+    .md {
+        width: 95%;
+        margin: 0 2.5%;
+    }
+  }
+@media screen and (max-width: 767px) {
+    .contentDiv {
+        width: 90%;
+        margin: 2.5% 5%;
+    } 
+  }
